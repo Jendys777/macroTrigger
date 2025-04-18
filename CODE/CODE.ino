@@ -406,6 +406,7 @@ void setColor(int LED, int ledA) {
       break;
   }
   strip.show();  //Start the LEDs lights
+  enableL = false; //Disable the button controls of the lights and enable the skip and previous functions
 }
 
 
