@@ -236,12 +236,12 @@ void loop() {
 
         //Handle display update timing for case 1
         enable = true;
-        enableL = false;
 
         //Handle LED update timing for case 1
         if (currentMillis - lastLEDUpdateTime[1] >= LEDUpdateInterval) {
           lastLEDUpdateTime[1] = currentMillis;
           setColor(LED, ledA);
+          enableL = false;  //Disable the button controls of the lights and enable the skip and previous functions
           display.clearDisplay();
           display.setTextSize(1);
           display.setTextWrap(false);
@@ -297,12 +297,12 @@ void loop() {
 
         //Handle display update timing for case 1
         enable = false;
-        enableL = true;
 
         //Handle LED update timing for case 1
         if (currentMillis - lastLEDUpdateTime[1] >= LEDUpdateInterval) {
           lastLEDUpdateTime[1] = currentMillis;
           setColor(LED, ledA);
+          enableL = false;  //Disable the button controls of the lights and enable the skip and previous functions
           display.clearDisplay();
           display.setTextSize(1);
           display.setTextWrap(false);
@@ -406,7 +406,6 @@ void setColor(int LED, int ledA) {
       break;
   }
   strip.show();  //Start the LEDs lights
-  enableL = false; //Disable the button controls of the lights and enable the skip and previous functions
 }
 
 
