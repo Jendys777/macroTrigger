@@ -6,4 +6,4 @@ You can also find the 3D models here: https://www.printables.com/model/1269446-m
 
 Please DO NOT SHARE, OR SELL THIS PRODCT, without my perrmision. 
 
-contakt me on: info@bojler.org
+contact me on: info@bojler.org
