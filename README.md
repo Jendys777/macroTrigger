@@ -5,3 +5,5 @@ If you have any questions please read the manual first. Than send me a messagge 
 You can also find the 3D models here: https://www.printables.com/model/1269446-macrotrigger
 
 Please DO NOT SHARE, OR SELL THIS PRODCT, without my perrmision. 
+
+contakt me on: info@bojler.org
